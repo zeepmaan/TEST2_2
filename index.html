@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>電卓</title>
+</head>
+
+<body>
+  <table>
+   <tr>
+    <td colspan="4" id="result" class="result">0</td>
+   </tr>
+   <tr>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>7</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>8</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>9</button></td>
+    <td><button type="button" id="button1" class="button_1"onclick=onclickButton1(this);>+</button></td>
+   </tr>
+   <tr>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>4</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>5</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>6</button></td>
+    <td><button type="button" id="button2" class="button_1" onclick=onclickButton2(this);>-</button></td>
+   </tr>
+   <tr>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>1</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>2</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>3</button></td>
+    <td><button type="button" id="button3" class="button_1" onclick=onclickButton3(this);>*</button></td>
+   </tr>
+   <tr>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>0</button></td>
+    <td><button type="button" id="button" class="button_1" onclick=onclickButton(this);>00</button></td>
+    <td><button type="button" id="button5" class="button_1" onclick=onclickButton5(this);>.</button></td>
+    <td><button type="button" id="button4" class="button_1" onclick=onclickButton4(this);>/</button></td>
+   </tr>
+   <tr>
+    <td colspan="2"><button type="button" id="button" class="button_2" onclick=onclickButton(this);>AC</button></td>
+    <td colspan="2"><button type="button" id="button" class="button_2" onclick=onclickButton(this);>=</button></td>
+   </tr>
+
+  </table>
+  <script src="main.js"></script>
+</body>
+
+</html>
+ 

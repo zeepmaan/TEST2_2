@@ -1,0 +1,11 @@
+.result {
+  background-color: black;
+  color:white;
+  text-align: right;
+}
+.button_1 {
+  width: 50px;
+}
+.button_2 {
+  width: 100%;
+}
